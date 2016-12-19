@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`mdl-theme`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="mdl-theme">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'mdl-theme',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'mdl-theme',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
