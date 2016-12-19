@@ -3,785 +3,296 @@
     <style>
       :root {
         /*Red*/
-        --mdl-colors-red-50: hsl(351, 100%, 96%);
-        --mdl-colors-red-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-red-100: hsl(354, 100%, 90%);
-        --mdl-colors-red-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-red-200: hsl(0, 73%, 77%);
-        --mdl-colors-red-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-red-300: hsl(0, 69%, 67%);
-        --mdl-colors-red-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-red-400: hsl(1, 83%, 63%);
-        --mdl-colors-red-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-500: hsl(4, 90%, 58%);
-        --mdl-colors-red-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-600: hsl(1, 77%, 55%);
-        --mdl-colors-red-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-700: hsl(0, 65%, 51%);
-        --mdl-colors-red-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-800: hsl(0, 66%, 47%);
-        --mdl-colors-red-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-900: hsl(0, 73%, 41%);
-        --mdl-colors-red-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-a100: hsl(5, 100%, 75%);
-        --mdl-colors-red-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-red-a200: hsl(0, 100%, 66%);
-        --mdl-colors-red-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-a400: hsl(348, 100%, 55%);
-        --mdl-colors-red-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-red-a700: hsl(0, 100%, 42%);
-        --mdl-colors-red-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-50: hsl(351, 100%, 96%); --mdl-colors-red-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-red-100: hsl(354, 100%, 90%); --mdl-colors-red-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-red-200: hsl(0, 73%, 77%); --mdl-colors-red-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-red-300: hsl(0, 69%, 67%); --mdl-colors-red-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-red-400: hsl(1, 83%, 63%); --mdl-colors-red-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-500: hsl(4, 90%, 58%); --mdl-colors-red-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-600: hsl(1, 77%, 55%); --mdl-colors-red-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-700: hsl(0, 65%, 51%); --mdl-colors-red-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-800: hsl(0, 66%, 47%); --mdl-colors-red-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-900: hsl(0, 73%, 41%); --mdl-colors-red-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-a100: hsl(5, 100%, 75%); --mdl-colors-red-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-red-a200: hsl(0, 100%, 66%); --mdl-colors-red-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-a400: hsl(348, 100%, 55%); --mdl-colors-red-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-red-a700: hsl(0, 100%, 42%); --mdl-colors-red-a700-contrast: hsl(0, 0%, 100%);
 
         /*Pink*/
-        --mdl-colors-pink-50: hsl(340, 80%, 94%);
-        --mdl-colors-pink-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-pink-100: hsl(339, 81%, 85%);
-        --mdl-colors-pink-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-pink-200: hsl(340, 82%, 76%);
-        --mdl-colors-pink-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-pink-300: hsl(340, 83%, 66%);
-        --mdl-colors-pink-300-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-400: hsl(340, 82%, 59%);
-        --mdl-colors-pink-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-500: hsl(340, 82%, 52%);
-        --mdl-colors-pink-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-600: hsl(338, 78%, 48%);
-        --mdl-colors-pink-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-700: hsl(336, 78%, 43%);
-        --mdl-colors-pink-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-800: hsl(334, 79%, 38%);
-        --mdl-colors-pink-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-900: hsl(328, 81%, 29%);
-        --mdl-colors-pink-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-a100: hsl(340, 100%, 75%);
-        --mdl-colors-pink-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-pink-a200: hsl(340, 100%, 63%);
-        --mdl-colors-pink-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-a400: hsl(339, 100%, 48%);
-        --mdl-colors-pink-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-pink-a700: hsl(333, 84%, 42%);
-        --mdl-colors-pink-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-50: hsl(340, 80%, 94%); --mdl-colors-pink-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-pink-100: hsl(339, 81%, 85%); --mdl-colors-pink-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-pink-200: hsl(340, 82%, 76%); --mdl-colors-pink-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-pink-300: hsl(340, 83%, 66%); --mdl-colors-pink-300-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-400: hsl(340, 82%, 59%); --mdl-colors-pink-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-500: hsl(340, 82%, 52%); --mdl-colors-pink-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-600: hsl(338, 78%, 48%); --mdl-colors-pink-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-700: hsl(336, 78%, 43%); --mdl-colors-pink-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-800: hsl(334, 79%, 38%); --mdl-colors-pink-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-900: hsl(328, 81%, 29%); --mdl-colors-pink-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-a100: hsl(340, 100%, 75%); --mdl-colors-pink-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-pink-a200: hsl(340, 100%, 63%); --mdl-colors-pink-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-a400: hsl(339, 100%, 48%); --mdl-colors-pink-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-pink-a700: hsl(333, 84%, 42%); --mdl-colors-pink-a700-contrast: hsl(0, 0%, 100%);
 
         /*Purple*/
-        --mdl-colors-purple-50: hsl(292, 44%, 93%);
-        --mdl-colors-purple-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-purple-100: hsl(291, 46%, 83%);
-        --mdl-colors-purple-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-purple-200: hsl(291, 47%, 71%);
-        --mdl-colors-purple-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-purple-300: hsl(291, 47%, 60%);
-        --mdl-colors-purple-300-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-400: hsl(291, 47%, 51%);
-        --mdl-colors-purple-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-500: hsl(291, 64%, 42%);
-        --mdl-colors-purple-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-600: hsl(287, 65%, 40%);
-        --mdl-colors-purple-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-700: hsl(282, 68%, 38%);
-        --mdl-colors-purple-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-800: hsl(277, 70%, 35%);
-        --mdl-colors-purple-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-900: hsl(267, 75%, 31%);
-        --mdl-colors-purple-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-a100: hsl(291, 95%, 75%);
-        --mdl-colors-purple-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-purple-a200: hsl(291, 96%, 62%);
-        --mdl-colors-purple-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-a400: hsl(291, 100%, 49%);
-        --mdl-colors-purple-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-purple-a700: hsl(280, 100%, 50%);
-        --mdl-colors-purple-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-50: hsl(292, 44%, 93%); --mdl-colors-purple-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-purple-100: hsl(291, 46%, 83%); --mdl-colors-purple-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-purple-200: hsl(291, 47%, 71%); --mdl-colors-purple-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-purple-300: hsl(291, 47%, 60%); --mdl-colors-purple-300-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-400: hsl(291, 47%, 51%); --mdl-colors-purple-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-500: hsl(291, 64%, 42%); --mdl-colors-purple-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-600: hsl(287, 65%, 40%); --mdl-colors-purple-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-700: hsl(282, 68%, 38%); --mdl-colors-purple-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-800: hsl(277, 70%, 35%); --mdl-colors-purple-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-900: hsl(267, 75%, 31%); --mdl-colors-purple-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-a100: hsl(291, 95%, 75%); --mdl-colors-purple-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-purple-a200: hsl(291, 96%, 62%); --mdl-colors-purple-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-a400: hsl(291, 100%, 49%); --mdl-colors-purple-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-purple-a700: hsl(280, 100%, 50%); --mdl-colors-purple-a700-contrast: hsl(0, 0%, 100%);
 
         /*Deep Purple*/
-        --mdl-colors-deep-purple-50: hsl(264, 45%, 94%);
-        --mdl-colors-deep-purple-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-purple-100: hsl(261, 46%, 84%);
-        --mdl-colors-deep-purple-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-purple-200: hsl(261, 46%, 74%);
-        --mdl-colors-deep-purple-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-purple-300: hsl(262, 47%, 63%);
-        --mdl-colors-deep-purple-300-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-400: hsl(262, 47%, 55%);
-        --mdl-colors-deep-purple-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-500: hsl(262, 52%, 47%);
-        --mdl-colors-deep-purple-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-600: hsl(260, 54%, 45%);
-        --mdl-colors-deep-purple-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-700: hsl(258, 58%, 42%);
-        --mdl-colors-deep-purple-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-800: hsl(255, 61%, 39%);
-        --mdl-colors-deep-purple-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-900: hsl(251, 69%, 34%);
-        --mdl-colors-deep-purple-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-a100: hsl(262, 100%, 77%);
-        --mdl-colors-deep-purple-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-purple-a200: hsl(256, 100%, 65%);
-        --mdl-colors-deep-purple-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-a400: hsl(259, 100%, 56%);
-        --mdl-colors-deep-purple-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-purple-a700: hsl(265, 100%, 46%);
-        --mdl-colors-deep-purple-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-50: hsl(264, 45%, 94%); --mdl-colors-deep-purple-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-purple-100: hsl(261, 46%, 84%); --mdl-colors-deep-purple-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-purple-200: hsl(261, 46%, 74%); --mdl-colors-deep-purple-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-purple-300: hsl(262, 47%, 63%); --mdl-colors-deep-purple-300-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-400: hsl(262, 47%, 55%); --mdl-colors-deep-purple-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-500: hsl(262, 52%, 47%); --mdl-colors-deep-purple-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-600: hsl(260, 54%, 45%); --mdl-colors-deep-purple-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-700: hsl(258, 58%, 42%); --mdl-colors-deep-purple-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-800: hsl(255, 61%, 39%); --mdl-colors-deep-purple-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-900: hsl(251, 69%, 34%); --mdl-colors-deep-purple-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-a100: hsl(262, 100%, 77%); --mdl-colors-deep-purple-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-purple-a200: hsl(256, 100%, 65%); --mdl-colors-deep-purple-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-a400: hsl(259, 100%, 56%); --mdl-colors-deep-purple-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-purple-a700: hsl(265, 100%, 46%); --mdl-colors-deep-purple-a700-contrast: hsl(0, 0%, 100%);
 
         /*Indigo*/
-        --mdl-colors-indigo-50: hsl(231, 44%, 94%);
-        --mdl-colors-indigo-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-indigo-100: hsl(232, 45%, 84%);
-        --mdl-colors-indigo-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-indigo-200: hsl(231, 44%, 74%);
-        --mdl-colors-indigo-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-indigo-300: hsl(230, 44%, 64%);
-        --mdl-colors-indigo-300-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-400: hsl(231, 44%, 56%);
-        --mdl-colors-indigo-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-500: hsl(231, 48%, 48%);
-        --mdl-colors-indigo-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-600: hsl(232, 50%, 45%);
-        --mdl-colors-indigo-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-700: hsl(232, 54%, 41%);
-        --mdl-colors-indigo-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-800: hsl(233, 57%, 37%);
-        --mdl-colors-indigo-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-900: hsl(235, 66%, 30%);
-        --mdl-colors-indigo-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-a100: hsl(231, 100%, 77%);
-        --mdl-colors-indigo-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-indigo-a200: hsl(231, 99%, 66%);
-        --mdl-colors-indigo-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-a400: hsl(231, 99%, 62%);
-        --mdl-colors-indigo-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-indigo-a700: hsl(231, 99%, 59%);
-        --mdl-colors-indigo-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-50: hsl(231, 44%, 94%); --mdl-colors-indigo-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-indigo-100: hsl(232, 45%, 84%); --mdl-colors-indigo-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-indigo-200: hsl(231, 44%, 74%); --mdl-colors-indigo-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-indigo-300: hsl(230, 44%, 64%); --mdl-colors-indigo-300-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-400: hsl(231, 44%, 56%); --mdl-colors-indigo-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-500: hsl(231, 48%, 48%); --mdl-colors-indigo-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-600: hsl(232, 50%, 45%); --mdl-colors-indigo-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-700: hsl(232, 54%, 41%); --mdl-colors-indigo-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-800: hsl(233, 57%, 37%); --mdl-colors-indigo-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-900: hsl(235, 66%, 30%); --mdl-colors-indigo-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-a100: hsl(231, 100%, 77%); --mdl-colors-indigo-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-indigo-a200: hsl(231, 99%, 66%); --mdl-colors-indigo-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-a400: hsl(231, 99%, 62%); --mdl-colors-indigo-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-indigo-a700: hsl(231, 99%, 59%); --mdl-colors-indigo-a700-contrast: hsl(0, 0%, 100%);
 
         /*Blue*/
-        --mdl-colors-blue-50: hsl(205, 87%, 94%);
-        --mdl-colors-blue-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-100: hsl(207, 89%, 86%);
-        --mdl-colors-blue-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-200: hsl(207, 90%, 77%);
-        --mdl-colors-blue-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-300: hsl(207, 89%, 68%);
-        --mdl-colors-blue-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-400: hsl(207, 90%, 61%);
-        --mdl-colors-blue-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-500: hsl(207, 90%, 54%);
-        --mdl-colors-blue-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-600: hsl(208, 79%, 51%);
-        --mdl-colors-blue-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-700: hsl(210, 79%, 46%);
-        --mdl-colors-blue-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-800: hsl(212, 80%, 42%);
-        --mdl-colors-blue-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-900: hsl(216, 85%, 34%);
-        --mdl-colors-blue-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-a100: hsl(217, 100%, 75%);
-        --mdl-colors-blue-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-a200: hsl(218, 100%, 63%);
-        --mdl-colors-blue-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-a400: hsl(218, 100%, 58%);
-        --mdl-colors-blue-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-a700: hsl(224, 100%, 58%);
-        --mdl-colors-blue-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-50: hsl(205, 87%, 94%); --mdl-colors-blue-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-100: hsl(207, 89%, 86%); --mdl-colors-blue-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-200: hsl(207, 90%, 77%); --mdl-colors-blue-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-300: hsl(207, 89%, 68%); --mdl-colors-blue-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-400: hsl(207, 90%, 61%); --mdl-colors-blue-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-500: hsl(207, 90%, 54%); --mdl-colors-blue-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-600: hsl(208, 79%, 51%); --mdl-colors-blue-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-700: hsl(210, 79%, 46%); --mdl-colors-blue-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-800: hsl(212, 80%, 42%); --mdl-colors-blue-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-900: hsl(216, 85%, 34%); --mdl-colors-blue-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-a100: hsl(217, 100%, 75%); --mdl-colors-blue-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-a200: hsl(218, 100%, 63%); --mdl-colors-blue-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-a400: hsl(218, 100%, 58%); --mdl-colors-blue-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-a700: hsl(224, 100%, 58%); --mdl-colors-blue-a700-contrast: hsl(0, 0%, 100%);
 
         /*Light Blue*/
-        --mdl-colors-light-blue-50: hsl(199, 94%, 94%);
-        --mdl-colors-light-blue-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-100: hsl(199, 92%, 85%);
-        --mdl-colors-light-blue-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-200: hsl(199, 92%, 74%);
-        --mdl-colors-light-blue-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-300: hsl(199, 91%, 64%);
-        --mdl-colors-light-blue-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-400: hsl(199, 92%, 56%);
-        --mdl-colors-light-blue-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-500: hsl(199, 98%, 48%);
-        --mdl-colors-light-blue-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-600: hsl(200, 97%, 45%);
-        --mdl-colors-light-blue-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-blue-700: hsl(201, 98%, 41%);
-        --mdl-colors-light-blue-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-blue-800: hsl(202, 98%, 37%);
-        --mdl-colors-light-blue-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-blue-900: hsl(206, 99%, 31%);
-        --mdl-colors-light-blue-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-blue-a100: hsl(198, 100%, 75%);
-        --mdl-colors-light-blue-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-a200: hsl(199, 100%, 63%);
-        --mdl-colors-light-blue-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-a400: hsl(199, 100%, 50%);
-        --mdl-colors-light-blue-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-blue-a700: hsl(203, 100%, 46%);
-        --mdl-colors-light-blue-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-blue-50: hsl(199, 94%, 94%); --mdl-colors-light-blue-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-100: hsl(199, 92%, 85%); --mdl-colors-light-blue-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-200: hsl(199, 92%, 74%); --mdl-colors-light-blue-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-300: hsl(199, 91%, 64%); --mdl-colors-light-blue-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-400: hsl(199, 92%, 56%); --mdl-colors-light-blue-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-500: hsl(199, 98%, 48%); --mdl-colors-light-blue-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-600: hsl(200, 97%, 45%); --mdl-colors-light-blue-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-blue-700: hsl(201, 98%, 41%); --mdl-colors-light-blue-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-blue-800: hsl(202, 98%, 37%); --mdl-colors-light-blue-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-blue-900: hsl(206, 99%, 31%); --mdl-colors-light-blue-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-blue-a100: hsl(198, 100%, 75%); --mdl-colors-light-blue-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-a200: hsl(199, 100%, 63%); --mdl-colors-light-blue-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-a400: hsl(199, 100%, 50%); --mdl-colors-light-blue-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-blue-a700: hsl(203, 100%, 46%); --mdl-colors-light-blue-a700-contrast: hsl(0, 0%, 100%);
 
         /*Cyan*/
-        --mdl-colors-cyan-50: hsl(187, 72%, 93%);
-        --mdl-colors-cyan-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-100: hsl(187, 71%, 82%);
-        --mdl-colors-cyan-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-200: hsl(187, 72%, 71%);
-        --mdl-colors-cyan-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-300: hsl(187, 71%, 59%);
-        --mdl-colors-cyan-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-400: hsl(187, 71%, 50%);
-        --mdl-colors-cyan-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-500: hsl(187, 100%, 42%);
-        --mdl-colors-cyan-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-600: hsl(187, 100%, 38%);
-        --mdl-colors-cyan-600-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-700: hsl(186, 100%, 33%);
-        --mdl-colors-cyan-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-cyan-800: hsl(185, 100%, 28%);
-        --mdl-colors-cyan-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-cyan-900: hsl(182, 100%, 20%);
-        --mdl-colors-cyan-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-cyan-a100: hsl(180, 100%, 76%);
-        --mdl-colors-cyan-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-a200: hsl(180, 100%, 55%);
-        --mdl-colors-cyan-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-a400: hsl(186, 100%, 50%);
-        --mdl-colors-cyan-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-cyan-a700: hsl(188, 100%, 42%);
-        --mdl-colors-cyan-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-50: hsl(187, 72%, 93%); --mdl-colors-cyan-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-100: hsl(187, 71%, 82%); --mdl-colors-cyan-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-200: hsl(187, 72%, 71%); --mdl-colors-cyan-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-300: hsl(187, 71%, 59%); --mdl-colors-cyan-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-400: hsl(187, 71%, 50%); --mdl-colors-cyan-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-500: hsl(187, 100%, 42%); --mdl-colors-cyan-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-600: hsl(187, 100%, 38%); --mdl-colors-cyan-600-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-700: hsl(186, 100%, 33%); --mdl-colors-cyan-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-cyan-800: hsl(185, 100%, 28%); --mdl-colors-cyan-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-cyan-900: hsl(182, 100%, 20%); --mdl-colors-cyan-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-cyan-a100: hsl(180, 100%, 76%); --mdl-colors-cyan-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-a200: hsl(180, 100%, 55%); --mdl-colors-cyan-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-a400: hsl(186, 100%, 50%); --mdl-colors-cyan-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-cyan-a700: hsl(188, 100%, 42%); --mdl-colors-cyan-a700-contrast: hsl(0, 0%, 0%);
 
         /*Teal*/
-        --mdl-colors-teal-50: hsl(177, 41%, 91%);
-        --mdl-colors-teal-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-100: hsl(175, 41%, 79%);
-        --mdl-colors-teal-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-200: hsl(174, 42%, 65%);
-        --mdl-colors-teal-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-300: hsl(174, 42%, 51%);
-        --mdl-colors-teal-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-400: hsl(174, 63%, 40%);
-        --mdl-colors-teal-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-500: hsl(174, 100%, 29%);
-        --mdl-colors-teal-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-teal-600: hsl(174, 100%, 27%);
-        --mdl-colors-teal-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-teal-700: hsl(173, 100%, 24%);
-        --mdl-colors-teal-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-teal-800: hsl(173, 100%, 21%);
-        --mdl-colors-teal-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-teal-900: hsl(170, 100%, 15%);
-        --mdl-colors-teal-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-teal-a100: hsl(166, 100%, 83%);
-        --mdl-colors-teal-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-a200: hsl(166, 100%, 70%);
-        --mdl-colors-teal-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-a400: hsl(165, 82%, 51%);
-        --mdl-colors-teal-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-teal-a700: hsl(172, 100%, 37%);
-        --mdl-colors-teal-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-50: hsl(177, 41%, 91%); --mdl-colors-teal-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-100: hsl(175, 41%, 79%); --mdl-colors-teal-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-200: hsl(174, 42%, 65%); --mdl-colors-teal-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-300: hsl(174, 42%, 51%); --mdl-colors-teal-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-400: hsl(174, 63%, 40%); --mdl-colors-teal-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-500: hsl(174, 100%, 29%); --mdl-colors-teal-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-teal-600: hsl(174, 100%, 27%); --mdl-colors-teal-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-teal-700: hsl(173, 100%, 24%); --mdl-colors-teal-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-teal-800: hsl(173, 100%, 21%); --mdl-colors-teal-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-teal-900: hsl(170, 100%, 15%); --mdl-colors-teal-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-teal-a100: hsl(166, 100%, 83%); --mdl-colors-teal-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-a200: hsl(166, 100%, 70%); --mdl-colors-teal-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-a400: hsl(165, 82%, 51%); --mdl-colors-teal-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-teal-a700: hsl(172, 100%, 37%); --mdl-colors-teal-a700-contrast: hsl(0, 0%, 0%);
 
         /*Green*/
-        --mdl-colors-green-50: hsl(125, 39%, 94%);
-        --mdl-colors-green-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-100: hsl(122, 37%, 84%);
-        --mdl-colors-green-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-200: hsl(122, 37%, 74%);
-        --mdl-colors-green-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-300: hsl(123, 38%, 64%);
-        --mdl-colors-green-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-400: hsl(123, 38%, 57%);
-        --mdl-colors-green-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-500: hsl(122, 39%, 49%);
-        --mdl-colors-green-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-600: hsl(123, 41%, 45%);
-        --mdl-colors-green-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-green-700: hsl(123, 43%, 39%);
-        --mdl-colors-green-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-green-800: hsl(123, 46%, 34%);
-        --mdl-colors-green-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-green-900: hsl(124, 55%, 24%);
-        --mdl-colors-green-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-green-a100: hsl(137, 77%, 85%);
-        --mdl-colors-green-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-a200: hsl(151, 82%, 68%);
-        --mdl-colors-green-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-a400: hsl(151, 100%, 45%);
-        --mdl-colors-green-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-green-a700: hsl(145, 100%, 39%);
-        --mdl-colors-green-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-50: hsl(125, 39%, 94%); --mdl-colors-green-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-100: hsl(122, 37%, 84%); --mdl-colors-green-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-200: hsl(122, 37%, 74%); --mdl-colors-green-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-300: hsl(123, 38%, 64%); --mdl-colors-green-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-400: hsl(123, 38%, 57%); --mdl-colors-green-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-500: hsl(122, 39%, 49%); --mdl-colors-green-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-600: hsl(123, 41%, 45%); --mdl-colors-green-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-green-700: hsl(123, 43%, 39%); --mdl-colors-green-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-green-800: hsl(123, 46%, 34%); --mdl-colors-green-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-green-900: hsl(124, 55%, 24%); --mdl-colors-green-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-green-a100: hsl(137, 77%, 85%); --mdl-colors-green-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-a200: hsl(151, 82%, 68%); --mdl-colors-green-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-a400: hsl(151, 100%, 45%); --mdl-colors-green-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-green-a700: hsl(145, 100%, 39%); --mdl-colors-green-a700-contrast: hsl(0, 0%, 0%);
 
         /*Light Green*/
-        --mdl-colors-light-green-50: hsl(88, 52%, 94%);
-        --mdl-colors-light-green-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-100: hsl(88, 51%, 86%);
-        --mdl-colors-light-green-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-200: hsl(88, 50%, 76%);
-        --mdl-colors-light-green-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-300: hsl(88, 50%, 67%);
-        --mdl-colors-light-green-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-400: hsl(88, 50%, 60%);
-        --mdl-colors-light-green-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-500: hsl(88, 50%, 53%);
-        --mdl-colors-light-green-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-600: hsl(89, 46%, 48%);
-        --mdl-colors-light-green-600-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-700: hsl(92, 48%, 42%);
-        --mdl-colors-light-green-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-green-800: hsl(95, 49%, 36%);
-        --mdl-colors-light-green-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-green-900: hsl(103, 56%, 26%);
-        --mdl-colors-light-green-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-light-green-a100: hsl(88, 100%, 78%);
-        --mdl-colors-light-green-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-a200: hsl(88, 100%, 67%);
-        --mdl-colors-light-green-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-a400: hsl(93, 100%, 51%);
-        --mdl-colors-light-green-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-light-green-a700: hsl(97, 81%, 48%);
-        --mdl-colors-light-green-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-50: hsl(88, 52%, 94%); --mdl-colors-light-green-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-100: hsl(88, 51%, 86%); --mdl-colors-light-green-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-200: hsl(88, 50%, 76%); --mdl-colors-light-green-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-300: hsl(88, 50%, 67%); --mdl-colors-light-green-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-400: hsl(88, 50%, 60%); --mdl-colors-light-green-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-500: hsl(88, 50%, 53%); --mdl-colors-light-green-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-600: hsl(89, 46%, 48%); --mdl-colors-light-green-600-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-700: hsl(92, 48%, 42%); --mdl-colors-light-green-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-green-800: hsl(95, 49%, 36%); --mdl-colors-light-green-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-green-900: hsl(103, 56%, 26%); --mdl-colors-light-green-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-light-green-a100: hsl(88, 100%, 78%); --mdl-colors-light-green-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-a200: hsl(88, 100%, 67%); --mdl-colors-light-green-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-a400: hsl(93, 100%, 51%); --mdl-colors-light-green-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-light-green-a700: hsl(97, 81%, 48%); --mdl-colors-light-green-a700-contrast: hsl(0, 0%, 0%);
 
         /*Lime*/
-        --mdl-colors-lime-50: hsl(66, 71%, 95%);
-        --mdl-colors-lime-50-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-100: hsl(65, 69%, 86%);
-        --mdl-colors-lime-100-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-200: hsl(66, 71%, 77%);
-        --mdl-colors-lime-200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-300: hsl(66, 70%, 68%);
-        --mdl-colors-lime-300-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-400: hsl(66, 70%, 61%);
-        --mdl-colors-lime-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-500: hsl(66, 70%, 54%);
-        --mdl-colors-lime-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-600: hsl(64, 60%, 50%);
-        --mdl-colors-lime-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-700: hsl(62, 61%, 44%);
-        --mdl-colors-lime-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-800: hsl(60, 63%, 38%);
-        --mdl-colors-lime-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-900: hsl(54, 70%, 30%);
-        --mdl-colors-lime-900-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-lime-a100: hsl(65, 100%, 75%);
-        --mdl-colors-lime-a100-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-a200: hsl(65, 100%, 63%);
-        --mdl-colors-lime-a200-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-a400: hsl(73, 100%, 50%);
-        --mdl-colors-lime-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-lime-a700: hsl(75, 100%, 46%);
-        --mdl-colors-lime-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-50: hsl(66, 71%, 95%); --mdl-colors-lime-50-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-100: hsl(65, 69%, 86%); --mdl-colors-lime-100-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-200: hsl(66, 71%, 77%); --mdl-colors-lime-200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-300: hsl(66, 70%, 68%); --mdl-colors-lime-300-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-400: hsl(66, 70%, 61%); --mdl-colors-lime-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-500: hsl(66, 70%, 54%); --mdl-colors-lime-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-600: hsl(64, 60%, 50%); --mdl-colors-lime-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-700: hsl(62, 61%, 44%); --mdl-colors-lime-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-800: hsl(60, 63%, 38%); --mdl-colors-lime-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-900: hsl(54, 70%, 30%); --mdl-colors-lime-900-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-lime-a100: hsl(65, 100%, 75%); --mdl-colors-lime-a100-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-a200: hsl(65, 100%, 63%); --mdl-colors-lime-a200-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-a400: hsl(73, 100%, 50%); --mdl-colors-lime-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-lime-a700: hsl(75, 100%, 46%); --mdl-colors-lime-a700-contrast: hsl(0, 0%, 100%);
 
         /*Yellow*/
-        --mdl-colors-yellow-50: hsl(55, 100%, 95%);
-        --mdl-colors-yellow-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-100: hsl(54, 100%, 88%);
-        --mdl-colors-yellow-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-200: hsl(54, 100%, 81%);
-        --mdl-colors-yellow-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-300: hsl(54, 100%, 73%);
-        --mdl-colors-yellow-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-400: hsl(54, 100%, 67%);
-        --mdl-colors-yellow-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-500: hsl(54, 100%, 62%);
-        --mdl-colors-yellow-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-600: hsl(49, 98%, 60%);
-        --mdl-colors-yellow-600-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-700: hsl(43, 96%, 58%);
-        --mdl-colors-yellow-700-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-800: hsl(37, 95%, 56%);
-        --mdl-colors-yellow-800-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-900: hsl(28, 92%, 53%);
-        --mdl-colors-yellow-900-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-a100: hsl(60, 100%, 78%);
-        --mdl-colors-yellow-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-a200: hsl(60, 100%, 50%);
-        --mdl-colors-yellow-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-a400: hsl(55, 100%, 50%);
-        --mdl-colors-yellow-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-yellow-a700: hsl(50, 100%, 50%);
-        --mdl-colors-yellow-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-50: hsl(55, 100%, 95%); --mdl-colors-yellow-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-100: hsl(54, 100%, 88%); --mdl-colors-yellow-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-200: hsl(54, 100%, 81%); --mdl-colors-yellow-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-300: hsl(54, 100%, 73%); --mdl-colors-yellow-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-400: hsl(54, 100%, 67%); --mdl-colors-yellow-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-500: hsl(54, 100%, 62%); --mdl-colors-yellow-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-600: hsl(49, 98%, 60%); --mdl-colors-yellow-600-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-700: hsl(43, 96%, 58%); --mdl-colors-yellow-700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-800: hsl(37, 95%, 56%); --mdl-colors-yellow-800-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-900: hsl(28, 92%, 53%); --mdl-colors-yellow-900-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-a100: hsl(60, 100%, 78%); --mdl-colors-yellow-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-a200: hsl(60, 100%, 50%); --mdl-colors-yellow-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-a400: hsl(55, 100%, 50%); --mdl-colors-yellow-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-yellow-a700: hsl(50, 100%, 50%); --mdl-colors-yellow-a700-contrast: hsl(0, 0%, 0%);
 
         /*Amber*/
-        --mdl-colors-amber-50: hsl(46, 100%, 94%);
-        --mdl-colors-amber-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-100: hsl(45, 100%, 85%);
-        --mdl-colors-amber-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-200: hsl(45, 100%, 75%);
-        --mdl-colors-amber-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-300: hsl(46, 100%, 65%);
-        --mdl-colors-amber-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-400: hsl(45, 100%, 58%);
-        --mdl-colors-amber-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-500: hsl(45, 100%, 51%);
-        --mdl-colors-amber-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-600: hsl(42, 100%, 50%);
-        --mdl-colors-amber-600-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-700: hsl(38, 100%, 50%);
-        --mdl-colors-amber-700-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-800: hsl(34, 100%, 50%);
-        --mdl-colors-amber-800-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-900: hsl(26, 100%, 50%);
-        --mdl-colors-amber-900-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-a100: hsl(48, 100%, 75%);
-        --mdl-colors-amber-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-a200: hsl(47, 100%, 63%);
-        --mdl-colors-amber-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-a400: hsl(46, 100%, 50%);
-        --mdl-colors-amber-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-amber-a700: hsl(40, 100%, 50%);
-        --mdl-colors-amber-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-50: hsl(46, 100%, 94%); --mdl-colors-amber-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-100: hsl(45, 100%, 85%); --mdl-colors-amber-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-200: hsl(45, 100%, 75%); --mdl-colors-amber-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-300: hsl(46, 100%, 65%); --mdl-colors-amber-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-400: hsl(45, 100%, 58%); --mdl-colors-amber-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-500: hsl(45, 100%, 51%); --mdl-colors-amber-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-600: hsl(42, 100%, 50%); --mdl-colors-amber-600-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-700: hsl(38, 100%, 50%); --mdl-colors-amber-700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-800: hsl(34, 100%, 50%); --mdl-colors-amber-800-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-900: hsl(26, 100%, 50%); --mdl-colors-amber-900-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-a100: hsl(48, 100%, 75%); --mdl-colors-amber-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-a200: hsl(47, 100%, 63%); --mdl-colors-amber-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-a400: hsl(46, 100%, 50%); --mdl-colors-amber-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-amber-a700: hsl(40, 100%, 50%); --mdl-colors-amber-a700-contrast: hsl(0, 0%, 0%);
 
         /*Orange*/
-        --mdl-colors-orange-50: hsl(37, 100%, 94%);
-        --mdl-colors-orange-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-100: hsl(36, 100%, 85%);
-        --mdl-colors-orange-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-200: hsl(36, 100%, 75%);
-        --mdl-colors-orange-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-300: hsl(36, 100%, 65%);
-        --mdl-colors-orange-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-400: hsl(36, 100%, 57%);
-        --mdl-colors-orange-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-500: hsl(36, 100%, 50%);
-        --mdl-colors-orange-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-600: hsl(33, 100%, 49%);
-        --mdl-colors-orange-600-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-700: hsl(30, 100%, 48%);
-        --mdl-colors-orange-700-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-800: hsl(27, 100%, 47%);
-        --mdl-colors-orange-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-orange-900: hsl(21, 100%, 45%);
-        --mdl-colors-orange-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-orange-a100: hsl(38, 100%, 75%);
-        --mdl-colors-orange-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-a200: hsl(34, 100%, 63%);
-        --mdl-colors-orange-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-a400: hsl(34, 100%, 50%);
-        --mdl-colors-orange-a400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-orange-a700: hsl(26, 100%, 50%);
-        --mdl-colors-orange-a700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-50: hsl(37, 100%, 94%); --mdl-colors-orange-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-100: hsl(36, 100%, 85%); --mdl-colors-orange-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-200: hsl(36, 100%, 75%); --mdl-colors-orange-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-300: hsl(36, 100%, 65%); --mdl-colors-orange-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-400: hsl(36, 100%, 57%); --mdl-colors-orange-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-500: hsl(36, 100%, 50%); --mdl-colors-orange-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-600: hsl(33, 100%, 49%); --mdl-colors-orange-600-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-700: hsl(30, 100%, 48%); --mdl-colors-orange-700-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-800: hsl(27, 100%, 47%); --mdl-colors-orange-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-orange-900: hsl(21, 100%, 45%); --mdl-colors-orange-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-orange-a100: hsl(38, 100%, 75%); --mdl-colors-orange-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-a200: hsl(34, 100%, 63%); --mdl-colors-orange-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-a400: hsl(34, 100%, 50%); --mdl-colors-orange-a400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-orange-a700: hsl(26, 100%, 50%); --mdl-colors-orange-a700-contrast: hsl(0, 0%, 0%);
 
         /*Deep Orange*/
-        --mdl-colors-deep-orange-50: hsl(6, 71%, 95%);
-        --mdl-colors-deep-orange-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-100: hsl(14, 100%, 87%);
-        --mdl-colors-deep-orange-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-200: hsl(14, 100%, 78%);
-        --mdl-colors-deep-orange-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-300: hsl(14, 100%, 70%);
-        --mdl-colors-deep-orange-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-400: hsl(14, 100%, 63%);
-        --mdl-colors-deep-orange-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-500: hsl(14, 100%, 57%);
-        --mdl-colors-deep-orange-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-orange-600: hsl(14, 91%, 54%);
-        --mdl-colors-deep-orange-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-orange-700: hsl(14, 80%, 50%);
-        --mdl-colors-deep-orange-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-orange-800: hsl(14, 82%, 46%);
-        --mdl-colors-deep-orange-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-orange-900: hsl(14, 88%, 40%);
-        --mdl-colors-deep-orange-900-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-orange-a100: hsl(14, 100%, 75%);
-        --mdl-colors-deep-orange-a100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-a200: hsl(14, 100%, 63%);
-        --mdl-colors-deep-orange-a200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-deep-orange-a400: hsl(14, 100%, 50%);
-        --mdl-colors-deep-orange-a400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-deep-orange-a700: hsl(12, 100%, 43%);
-        --mdl-colors-deep-orange-a700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-50: hsl(6, 71%, 95%); --mdl-colors-deep-orange-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-100: hsl(14, 100%, 87%); --mdl-colors-deep-orange-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-200: hsl(14, 100%, 78%); --mdl-colors-deep-orange-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-300: hsl(14, 100%, 70%); --mdl-colors-deep-orange-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-400: hsl(14, 100%, 63%); --mdl-colors-deep-orange-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-500: hsl(14, 100%, 57%); --mdl-colors-deep-orange-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-600: hsl(14, 91%, 54%); --mdl-colors-deep-orange-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-700: hsl(14, 80%, 50%); --mdl-colors-deep-orange-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-800: hsl(14, 82%, 46%); --mdl-colors-deep-orange-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-900: hsl(14, 88%, 40%); --mdl-colors-deep-orange-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-a100: hsl(14, 100%, 75%); --mdl-colors-deep-orange-a100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-a200: hsl(14, 100%, 63%); --mdl-colors-deep-orange-a200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-deep-orange-a400: hsl(14, 100%, 50%); --mdl-colors-deep-orange-a400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-deep-orange-a700: hsl(12, 100%, 43%); --mdl-colors-deep-orange-a700-contrast: hsl(0, 0%, 100%);
 
         /*Brown*/
-        --mdl-colors-brown-50: hsl(20, 16%, 93%);
-        --mdl-colors-brown-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-brown-100: hsl(16, 16%, 81%);
-        --mdl-colors-brown-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-brown-200: hsl(15, 15%, 69%);
-        --mdl-colors-brown-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-brown-300: hsl(16, 15%, 56%);
-        --mdl-colors-brown-300-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-brown-400: hsl(16, 18%, 47%);
-        --mdl-colors-brown-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-brown-500: hsl(16, 25%, 38%);
-        --mdl-colors-brown-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-brown-600: hsl(15, 25%, 34%);
-        --mdl-colors-brown-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-brown-700: hsl(14, 26%, 29%);
-        --mdl-colors-brown-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-brown-800: hsl(11, 26%, 24%);
-        --mdl-colors-brown-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-brown-900: hsl(9, 28%, 19%);
-        --mdl-colors-brown-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-50: hsl(20, 16%, 93%); --mdl-colors-brown-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-brown-100: hsl(16, 16%, 81%); --mdl-colors-brown-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-brown-200: hsl(15, 15%, 69%); --mdl-colors-brown-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-brown-300: hsl(16, 15%, 56%); --mdl-colors-brown-300-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-400: hsl(16, 18%, 47%); --mdl-colors-brown-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-500: hsl(16, 25%, 38%); --mdl-colors-brown-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-600: hsl(15, 25%, 34%); --mdl-colors-brown-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-700: hsl(14, 26%, 29%); --mdl-colors-brown-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-800: hsl(11, 26%, 24%); --mdl-colors-brown-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-brown-900: hsl(9, 28%, 19%); --mdl-colors-brown-900-contrast: hsl(0, 0%, 100%);
 
         /*Grey*/
-        --mdl-colors-grey-50: hsl(0, 0%, 98%);
-        --mdl-colors-grey-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-grey-100: hsl(0, 0%, 96%);
-        --mdl-colors-grey-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-grey-200: hsl(0, 0%, 93%);
-        --mdl-colors-grey-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-grey-300: hsl(0, 0%, 88%);
-        --mdl-colors-grey-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-grey-400: hsl(0, 0%, 74%);
-        --mdl-colors-grey-400-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-grey-500: hsl(0, 0%, 62%);
-        --mdl-colors-grey-500-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-grey-600: hsl(0, 0%, 46%);
-        --mdl-colors-grey-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-grey-700: hsl(0, 0%, 38%);
-        --mdl-colors-grey-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-grey-800: hsl(0, 0%, 26%);
-        --mdl-colors-grey-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-grey-900: hsl(0, 0%, 13%);
-        --mdl-colors-grey-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-grey-50: hsl(0, 0%, 98%); --mdl-colors-grey-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-grey-100: hsl(0, 0%, 96%); --mdl-colors-grey-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-grey-200: hsl(0, 0%, 93%); --mdl-colors-grey-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-grey-300: hsl(0, 0%, 88%); --mdl-colors-grey-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-grey-400: hsl(0, 0%, 74%); --mdl-colors-grey-400-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-grey-500: hsl(0, 0%, 62%); --mdl-colors-grey-500-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-grey-600: hsl(0, 0%, 46%); --mdl-colors-grey-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-grey-700: hsl(0, 0%, 38%); --mdl-colors-grey-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-grey-800: hsl(0, 0%, 26%); --mdl-colors-grey-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-grey-900: hsl(0, 0%, 13%); --mdl-colors-grey-900-contrast: hsl(0, 0%, 100%);
 
         /*Blue Grey*/
-        --mdl-colors-blue-grey-50: hsl(204, 15%, 94%);
-        --mdl-colors-blue-grey-50-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-grey-100: hsl(198, 16%, 84%);
-        --mdl-colors-blue-grey-100-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-grey-200: hsl(200, 15%, 73%);
-        --mdl-colors-blue-grey-200-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-grey-300: hsl(200, 16%, 62%);
-        --mdl-colors-blue-grey-300-contrast: hsl(0, 0%, 0%);
-
-        --mdl-colors-blue-grey-400: hsl(200, 15%, 54%);
-        --mdl-colors-blue-grey-400-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-grey-500: hsl(200, 18%, 46%);
-        --mdl-colors-blue-grey-500-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-grey-600: hsl(199, 18%, 40%);
-        --mdl-colors-blue-grey-600-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-grey-700: hsl(199, 18%, 33%);
-        --mdl-colors-blue-grey-700-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-grey-800: hsl(200, 18%, 26%);
-        --mdl-colors-blue-grey-800-contrast: hsl(0, 0%, 100%);
-
-        --mdl-colors-blue-grey-900: hsl(200, 19%, 18%);
-        --mdl-colors-blue-grey-900-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-grey-50: hsl(204, 15%, 94%); --mdl-colors-blue-grey-50-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-grey-100: hsl(198, 16%, 84%); --mdl-colors-blue-grey-100-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-grey-200: hsl(200, 15%, 73%); --mdl-colors-blue-grey-200-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-grey-300: hsl(200, 16%, 62%); --mdl-colors-blue-grey-300-contrast: hsl(0, 0%, 0%);
+        --mdl-colors-blue-grey-400: hsl(200, 15%, 54%); --mdl-colors-blue-grey-400-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-grey-500: hsl(200, 18%, 46%); --mdl-colors-blue-grey-500-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-grey-600: hsl(199, 18%, 40%); --mdl-colors-blue-grey-600-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-grey-700: hsl(199, 18%, 33%); --mdl-colors-blue-grey-700-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-grey-800: hsl(200, 18%, 26%); --mdl-colors-blue-grey-800-contrast: hsl(0, 0%, 100%);
+        --mdl-colors-blue-grey-900: hsl(200, 19%, 18%); --mdl-colors-blue-grey-900-contrast: hsl(0, 0%, 100%);
       }
     </style>
   </template>
